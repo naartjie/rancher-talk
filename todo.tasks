@@ -1,0 +1,9 @@
+ ☐ api keys:
+   ☐ DO
+   ☐ AWS
+ ☐ add EC2 from wizard doesn't work
+ ☐ can't shell into DO instance
+   ☐ where does the ssh key for DO instance come from?
+
+notes:
+  to ssh into a rancheros instance, use rancher user, not root
