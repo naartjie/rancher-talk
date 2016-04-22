@@ -7,3 +7,6 @@
 
 notes:
   to ssh into a rancheros instance, use rancher user, not root
+
+should the talk include:
+ - Mesos DC/OC
