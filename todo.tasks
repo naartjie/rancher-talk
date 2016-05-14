@@ -2,26 +2,8 @@
    ☐ DO
    ☐ AWS
  ☐ add EC2 from wizard doesn't work
- ☐ can't shell into DO instance
-   ☐ where does the ssh key for DO instance come from?
 
  - health checks: what of them?
- - Kubernetes/Docker Swarm (the default is Rancher's own Cattle)
-
-pre-checklist:
- ☐ docker-machine + eval in shell
- ☐ check docker commands
-   ☐ docker-machine ls
-   ☐ eval $(docker-machine env default)
-   ☐ docker ps
-   ☐ docker build
-   ☐ docker run
- ☐ breathe
- ☐ talk slowly... go slowly
-
 
 notes:
   to ssh into a rancheros instance, use rancher user, not root
-
-should the talk include:
- - Mesos DC/OS
