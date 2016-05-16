@@ -1,4 +1,5 @@
 ### Pre Game Checklist
+- [ ] check rancher server version!!
 - [ ] open iTerm (tabs: jbaas / service-2)
 - [ ] atom demo.md (with preview)
 - [ ] zoom in
