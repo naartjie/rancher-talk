@@ -1,7 +1,16 @@
+Commands:
+```
+docker run -d --restart=always -p 80:8080 rancher/server:stable
+
+for i in {1..5000}; do curl http://45.55.142.34/; echo; done;
+
+ab -lr -c 500 -n 1000 http://45.55.142.34/
+```
+
 ## Install Rancher Server
 We create a DigitalOcean Droplet with Docker, and docker run rancher/server.
 ```
-docker run -d --restart=always -p 80:8080 rancher/server
+docker run -d --restart=always -p 80:8080 rancher/server:stable
 ```
 Caveat: differences in production:
 - Domain name
