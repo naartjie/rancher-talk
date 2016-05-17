@@ -1,6 +1,6 @@
 ### Pre Game Checklist
 - [ ] check rancher server version!!
-- [ ] open iTerm (tabs: jbaas / service-2)
+- [ ] open iTerm (tabs: jbaas / time)
 - [ ] atom demo.md (with preview)
 - [ ] zoom in
 - [ ] open rancher-talk.key
@@ -20,3 +20,7 @@
 ### Remember
 - breathe ;-)
 - talk slowly, go slowly
+
+### After
+- [ ] delete hosts
+- [ ] revoke DO API key

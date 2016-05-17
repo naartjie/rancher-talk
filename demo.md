@@ -1,4 +1,4 @@
-Commands:
+### commands
 ```
 docker run -d --restart=always -p 80:8080 rancher/server:stable
 
@@ -7,6 +7,14 @@ for i in {1..5000}; do curl http://45.55.142.34/; echo; done;
 ab -lr -c 10 -n 10000 http://45.55.142.34/
 ```
 
+### waiting room
+* Cattle / Kubernetes / Swarm
+* UI / CLI / API
+* Catalog Library with "Solutions"
+* Container graphs
+* rancher-compose / docker-compose YAML
+
+------------------------------
 ## Install Rancher Server
 We create a DigitalOcean Droplet with Docker, and docker run rancher/server.
 ```
